@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: user
+
+server:
+  port: 8083
+  #swagger-enabled: true
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+    context-path: /user
