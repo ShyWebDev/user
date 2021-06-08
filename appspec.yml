@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ssungis/apiGateway/user
+
+hooks:
+  AfterInstall:
+    - location: /user-start.sh
+      runas: root
