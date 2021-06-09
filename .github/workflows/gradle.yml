@@ -40,7 +40,7 @@ jobs:
     - name: Copy appspec
       run: cp appspec.yml ./deploy/
 
-    # board-start.sh Copy
+    # user-start.sh Copy
     - name: Copy user-start.sh
       run: cp user-start.sh ./deploy/
     
